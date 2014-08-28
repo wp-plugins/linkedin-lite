@@ -43,6 +43,13 @@ Installing on multisite if wanting shared API keys:
 3. To use shared API keys on all sites in the network, now go to Network Admin > Settings > LinkedInLite
 
 
+== Screenshots ==
+
+1. Authorisation of the plugin via LinkedIn
+2. Select the fields you want for your page profile
+3. Network API keys for multisite installations
+
+
 == Changelog ==
 
 = 1.0 =
