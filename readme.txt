@@ -5,11 +5,11 @@ Requires at least: 3.0
 Tested up to: 3.9
 Stable tag: 1.0
 
-Displays your LinkedIn profile on your blog. Has a network mode for multisite installations.
+Display your LinkedIn profile in a page, post or the sidebar  of your blog. Has a network mode for multisite installations.
 
 == Description ==
 
-LinkedIn LITE allows a blog admin to authenticate their linkedIn profile for public display on the site. In Multisite mode it allows a single set of API keys to work across the entire multisite network. 
+LinkedIn LITE allows a blog admin to authenticate their linkedIn profile for public display on the site. In Multisite mode it allows a single set of API keys to work across the entire multisite network.
 
 Features:
 
