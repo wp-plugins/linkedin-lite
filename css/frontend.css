@@ -1,0 +1,102 @@
+/**
+*	LinkedIn Profile CSS 
+* -------------------------------------- */
+
+/* default class on all profile parts */
+.SULI-profile-part {				
+	padding:5px 0 10px 16px;
+}
+
+/* tweaks for admin */
+.adminProfileWrapper .SULI-profile-part {
+	border-left:1px solid #d0d0d0;
+}
+
+
+/* tweaks for front end */
+.pagePublicProfileWrapper .SULI-profile-part {
+
+}
+.widgetPublicProfileWrapper .SULI-profile-part {
+	padding:5px 0 10px 0px;
+}
+
+
+/* over-ride the theme margins in most of the profile parts */
+.SULI-location *,
+.SULI-educations *,
+.SULI-positions *,
+.SULI-skills *,
+.SULI-languages *,
+.SULI-certifications *,
+.SULI-courses *,
+.SULI-volunteer *,
+.SULI-honorsAwards *,
+.SULI-patents *,
+.SULI-publications *
+{
+	margin:0 0 0 0;
+}
+
+
+/* sub-part heading font */
+.SULI-profile-part h4 {
+	font-size:110%;
+}
+
+/* widget part heading font */
+.widgetPublicProfileWrapper h3 {
+	font-size:90%;
+}
+
+/* skills tags */
+.SULI-skills span {
+	padding: 6px 8px;
+	line-height:250% !important;
+	background: #ddd;
+	color:#333;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	white-space:nowrap;
+}
+
+
+/* anything datey */
+.SULI-profile-part .date { color:#aaa; margin-bottom:4px; }
+
+
+/* piccy */
+.SULI-pictureUrl img {
+	border:		1px solid #ccc;
+	padding:	3px;
+	margin:		0 16px 0 0;
+}
+
+
+/* frontend format for top section of profile (the pic and basic info) */
+.pagePublicProfileWrapper .SULI-pictureUrl { 
+	float: left; 
+	padding-left:0; 
+}
+.pagePublicProfileWrapper .SULI-formattedName { font-size:15px; 	font-weight:700; 				margin:0 0 0 100px; 	padding:3px 0 0 0; }
+.pagePublicProfileWrapper .SULI-headline { 		font-size:15px; 	font-style:italic; 				margin:0 0 2px 100px; 	padding:0; }
+.pagePublicProfileWrapper .SULI-industry { 		font-size:11px; 	line-height:16px; color:#aaa; 	margin:0 0 0 100px; 	padding:0; }
+.pagePublicProfileWrapper .SULI-location { 		font-size:11px; 	line-height:16px; color:#aaa; 	margin:0 0 0 100px; 	padding:0; }
+.pagePublicProfileWrapper .SULI-emailAddress { 	font-size:11px; 	line-height:16px; 				margin:0 0 20px 100px; 	padding:0; }
+
+.widgetPublicProfileWrapper .SULI-formattedName { 	font-size:15px; 	font-weight:700; 				margin:0 0 0 0px; 		padding:3px 0 0 0; }
+.widgetPublicProfileWrapper .SULI-headline { 		font-size:15px; 	font-style:italic; 				margin:0 0 2px 0px; 	padding:0; }
+.widgetPublicProfileWrapper .SULI-industry { 		font-size:11px; 	line-height:16px; color:#aaa; 	margin:0 0 0 0px; 		padding:0; }
+.widgetPublicProfileWrapper .SULI-location { 		font-size:11px; 	line-height:16px; color:#aaa; 	margin:0 0 0 0px; 		padding:0; }
+.widgetPublicProfileWrapper .SULI-emailAddress { 	font-size:11px; 	line-height:16px; 				margin:0 0 20px 0px; 	padding:0; }
+
+
+
+
+
+.SULI-cacheNotice { border:1px solid #a00; background:#fee; padding:5px; margin-bottom:10px; color:#900; font-size:11px; }
+.SULI-cacheNoticeWidget { border:1px solid #a00; background:#fee; padding:5px; margin-bottom:10px; color:#900; font-size:10px; }
+
+
+/* --------- END LinkedIn profile CSS ----------- */ 

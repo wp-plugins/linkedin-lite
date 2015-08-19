@@ -1,0 +1,127 @@
+
+
+.tick {
+	background: 	url('images/tick.png') no-repeat left 7px;
+	padding:		0px 0px 6px 22px;
+}
+
+.clearL {
+	clear: left;
+}
+
+.clearB {
+	clear: both;
+}
+
+.fL { float: left; }
+
+
+/* tabs */
+.mp3j-tabbuttons-wrap
+{
+	position:relative; border-bottom:1px solid #ccc; height:30px; padding:5px 0 0 0; width:auto; overflow:visible;
+}
+
+.mp3j-tabbutton { 
+	float:left; 
+	padding:6px 18px 6px 18px; 
+	font-size:11px; margin:0 2px 0 0;
+	background:#ddd; 
+	font-weight:700;
+	color:#777;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom:1px solid #ccc;
+	cursor:pointer;
+}
+
+.active-tab {
+	background:#f0f0f0;
+	border:1px solid #ccc;
+	border-bottom:0px;
+	padding:5px 17px 7px 17px;
+	color:#444;
+}
+
+.mp3j-tabs-wrap { position:relative; height:auto; border-bottom:1px solid #bbb;  }
+
+.mp3j-tab { position:relative; height:auto; padding:20px 0px 40px 12px; background:url('images/admin-grad-1.png') repeat-x left bottom; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PROFILE */
+
+.SULI-profile-part {
+
+	padding:5px 0 10px 25px;
+	border-left:1px solid #d0d0d0;
+
+}
+
+
+.SULI-location *,
+.SULI-educations *,
+.SULI-positions *,
+.SULI-skills *,
+.SULI-languages *,
+.SULI-certifications *,
+.SULI-courses *,
+.SULI-volunteer *,
+.SULI-honorsAwards *,
+.SULI-patents *,
+.SULI-publications * 
+{
+	margin:0 0 0 0;
+}
+
+
+.SULI-location p,
+.SULI-educations p,
+.SULI-positions p,
+.SULI-skills p {
+
+	margin:0 0 8px 0;
+
+}
+
+.SULI-pictureUrl img {
+	
+	border:		1px solid #ccc;
+	padding:	3px;
+	margin:		0 16px 0 0;
+
+}
+
+.SULI-skills span {
+	padding: 6px;
+	line-height:30px !important;
+	background: #ddd;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+	white-space:nowrap;
+}
+
+.suli-profilepic {
+	border:		1px solid #ccc;
+	padding:	3px;
+	margin:		0 16px 0 0;
+}
+
+
