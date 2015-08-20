@@ -2,12 +2,26 @@
 Contributors: alexfurr, simon.ward
 Tags: linkedin, multisite, page, widget.
 Requires at least: 3.0
-Tested up to: 3.9
-Stable tag: 1.0
+Tested up to: 4.3
+Stable tag: 1.1
 
 Display your LinkedIn profile in a page, post or the sidebar  of your blog. Has a network mode for multisite installations.
 
 == Description ==
+
+IMPORTANT MESSAGE: Much to our disappointment, LinkedIn have changed their policy on the profile info available via their API. This means that this plugin is now only able to display a few parts of your profile. Any unavailable fields will be greyed-out in your admin settings page. Hopefully LinkedIn will change their minds!
+
+You can display:
+
+* Profile picture
+* Full name
+* Job title / headline
+* Industry
+* Location
+* Positions held
+* Primary email
+* Link to your public profile on linkedin.
+
 
 LinkedIn LITE allows a blog admin to authenticate their linkedIn profile for public display on the site. In Multisite mode it allows a single set of API keys to work across the entire multisite network.
 
@@ -51,6 +65,10 @@ Installing on multisite if wanting shared API keys:
 
 
 == Changelog ==
+
+= 1.1 =
+* Knocked back profile scope to r_basicprofile. This fixes the recent issue of not being to succesfully authorise the plugin.
+* Fixed widget compatibility with WordPress 4.3.
 
 = 1.0 =
 * First release.
